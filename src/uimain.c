@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include "tokenizer.h"
 
- int main() {
+int main(){
   
-    puts("Welcome!");
+   puts("Welcome!");
 
-    while(1){
-      fputs("Please enter t to tokenize and q to quit");
-      fflush(stdout);
+     while(1){
+    fputs("Please enter t to tokenize and q to quit");
+    fflush(stdout);
 
       int c;
       while((c == getchar() == '\n'))
@@ -35,6 +35,5 @@
       // this is where the program jumps to if user inputs q and ends program
     END:
       return 0;
-    
+   
  }
-
